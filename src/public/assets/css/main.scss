@@ -1,0 +1,26 @@
+@use "./header.scss";
+
+html,
+body,
+div,
+p,
+img,
+h1,
+h2,
+h3 {
+  box-sizing: border-box;
+}
+
+body {
+  color: red;
+}
+
+h1 {
+  color: red;
+}
+
+.content {
+  .title {
+    font-size: 24px;
+  }
+}
